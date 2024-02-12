@@ -1,0 +1,15 @@
+// dependicies : will hold hte lib.
+// nodemon : will wait to detect the changes into the code and will restart the application again.
+// dependiencies: will be used in production
+// devdependencies : will be used in development/ Testing.
+//packagelock.json:
+// 1. lock the dependency version : exact version of each installed package including its dependencies and this version . this prevents unexpected dependencies upgrades or changes in dependencies version.
+
+// 2. faster installation: to determine the exact version of dependencies to install .==> thi help us to do the installation faster because npm doesn't  need to worry about the version and time to resolve the dependency and calcuate the dependency version every time.
+
+// 3. deterministic built
+// 4. version resolution : it will not try to update , it will use the existing one.
+
+// 5. security : it helps in ensuring security by fixing dependencies to their known versions.
+
+// 6. collaboration
